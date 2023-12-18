@@ -12,3 +12,5 @@ PYTHON_REEDSOLO_LICENSE = Public Domain
 PYTHON_REEDSOLO_LICENSE_FILES = LICENSE
 
 $(eval $(python-package))
+$(eval $(host-python-package))
+

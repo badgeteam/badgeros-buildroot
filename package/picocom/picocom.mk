@@ -18,4 +18,13 @@ define PICOCOM_INSTALL_TARGET_CMDS
 	$(INSTALL) -D -m 0755 $(@D)/picocom $(TARGET_DIR)/usr/bin/picocom
 endef
 
+define HOST_PICOCOM_BUILD_CMDS
+	$(HOST_MAKE_ENV) $(HOST_CONFIGURE_OPTS) $(MAKE) -C $(@D)
+endef
+
+define HOST_PICOCOM_INSTALL_CMDS
+	$(INSTALL) -D -m 0755 $(@D)/picocom $(HOST_DIR)/usr/bin/picocom
+endef
+
 $(eval $(generic-package))
+$(eval $(host-generic-package))

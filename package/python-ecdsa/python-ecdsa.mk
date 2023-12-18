@@ -13,3 +13,5 @@ PYTHON_ECDSA_LICENSE_FILES = LICENSE
 PYTHON_ECDSA_CPE_ID_VENDOR = python-ecdsa_project
 
 $(eval $(python-package))
+$(eval $(host-python-package))
+

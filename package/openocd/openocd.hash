@@ -1,5 +1,5 @@
 # From http://sourceforge.net/projects/openocd/files/openocd/0.12.0/
-sha256  af254788be98861f2bd9103fe6e60a774ec96a8c374744eef9197f6043075afa  openocd-0.12.0.tar.bz2
+sha256  c940edee42b303380ebffaa59644886bb255d0706473c05f07f7e8aa5a49109a  openocd-v0.12.0-esp32-20230921-br1.tar.gz
 sha256  1b8f7e37ee5afbbf95c2a4d62b12b25232e29538692663b434318503a9a88419  COPYING
 sha256  034da732b4f3079b8783fff756613c1cff89dec5ac80c5cdd90532b7539922a1  LICENSES/exceptions/eCos-exception-2.0
 sha256  0a37155eb8bc0cb94477a0cae4f030e39da9317374e8a9f597e9229fd09aff78  LICENSES/license-rules.txt

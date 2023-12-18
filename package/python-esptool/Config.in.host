@@ -1,0 +1,13 @@
+config BR2_PACKAGE_HOST_PYTHON_ESPTOOL
+	bool "host python-esptool"
+	select BR2_PACKAGE_HOST_PYTHON_BITSTRING # runtime
+	select BR2_PACKAGE_HOST_PYTHON_CRYPTOGRAPHY # runtime
+	select BR2_PACKAGE_HOST_PYTHON_ECDSA # runtime
+	select BR2_PACKAGE_HOST_PYTHON_REEDSOLO # runtime
+	select BR2_PACKAGE_HOST_PYTHON_SERIAL # runtime
+	select BR2_PACKAGE_HOST_PYTHON3_ZLIB
+	help
+	  A serial utility to communicate & flash code to Espressif
+	  ESP8266 & ESP32 chips.
+
+	  https://github.com/espressif/esptool
