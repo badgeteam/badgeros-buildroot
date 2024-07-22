@@ -132,6 +132,7 @@ GDB_CONF_OPTS = \
 	--without-included-gettext \
 	--disable-werror \
 	--enable-static \
+	--disable-shared \
 	--without-mpfr \
 	--disable-source-highlight
 
@@ -252,6 +253,7 @@ endif
 HOST_GDB_CONF_OPTS = \
 	--target=$(GNU_TARGET_NAME) \
 	--enable-static \
+	--disable-shared \
 	--without-uiout \
 	--disable-gdbtk \
 	--without-x \
